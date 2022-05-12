@@ -1,6 +1,6 @@
 //Task 2*** Реализуйте считывание из JSONки из файла task2.json с помощью, например, модуля fs. для дальнейшего использования в функции, описанной в задании
 
-//'use strict';
+'use strict'
 const fs = require('fs');
 let rawUsers = fs.readFileSync('task2.json');
 let users = JSON.parse(rawUsers)

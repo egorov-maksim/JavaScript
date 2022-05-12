@@ -82,6 +82,6 @@ const users = [
 ];
 
 users.forEach(user => {
-    if (user.registrationDate == '09.10.2021' || user.registrationDate == '10.10.2021') console.log(user.firstName, user.lastName)
+    if (user.registrationDate == '09.10.2021' || user.registrationDate == '10.10.2021') console.log(user)
 })
 

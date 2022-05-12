@@ -372,8 +372,8 @@ let uniqueUsers = users.reduce((unique, user) => {
     return unique;
 },
 {
-    map: {},
-    uniqueUsers:[]
+    map: {}, // checked users
+    uniqueUsers:[] //final massive with unique 'name'
 })
 .uniqueUsers;
 console.log(uniqueUsers);
